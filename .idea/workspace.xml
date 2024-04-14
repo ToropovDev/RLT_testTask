@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc0c758b-e842-4cad-9309-9edd8b3cfab6" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="cc0c758b-e842-4cad-9309-9edd8b3cfab6" name="Changes" comment="Added aggregating data with grouping by month">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
@@ -126,7 +125,7 @@
       <workItem from="1713116387050" duration="1801000" />
       <workItem from="1713119144946" duration="320000" />
       <workItem from="1713119776416" duration="130000" />
-      <workItem from="1713119925989" duration="4854000" />
+      <workItem from="1713119925989" duration="6527000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -136,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713121298669</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added aggregating data with grouping by month">
+      <option name="closed" value="true" />
+      <created>1713124909742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713124909742</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,10 +158,11 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added aggregating data with grouping by month" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added aggregating data with grouping by month" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RLT_testTask$db.coverage" NAME="db Coverage Results" MODIFIED="1713122519959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/RLT_testTask$main.coverage" NAME="main Coverage Results" MODIFIED="1713124790142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RLT_testTask$main.coverage" NAME="main Coverage Results" MODIFIED="1713126382792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

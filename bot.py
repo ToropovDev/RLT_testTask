@@ -26,5 +26,5 @@ async def start(message: types.Message):
 async def on_message(message):
     request = eval(message.text)
     response = get_response(request)
-    await message.answer(str(response)[:1000])
+    await message.answer(response)
 
