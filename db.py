@@ -42,20 +42,7 @@ def group_by_day(dt_from: datetime, dt_upto: datetime) -> dict:
 
 def process_weekday(date: str) -> datetime:
     date = datetime.fromisoformat(date)
-    if date.weekday() == 0:
-        return date
-    if date.weekday() == 1:
-        return date - timedelta(days=1)
-    if date.weekday() == 2:
-        return date - timedelta(days=2)
-    if date.weekday() == 3:
-        return date - timedelta(days=3)
-    if date.weekday() == 4:
-        return date - timedelta(days=4)
-    if date.weekday() == 5:
-        return date - timedelta(days=5)
-    if date.weekday() == 6:
-        return date - timedelta(days=6)
+    return date - timedelta(days=date.weekday())
 
 
 def group_by_week(dt_from: datetime, dt_upto: datetime) -> dict:
