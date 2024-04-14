@@ -8,13 +8,13 @@ Python 3.11.8
 
 Install project requirements:
 
-```json
+```
 pip install -r requirements.txt
 ```
 
 Edit .env file, you need to paste your bot token from BotFather and create MONGO_URL and DATABASE_NAME. Default .env:
 
-```json
+```
 BOT_TOKEN=
 MONGO_URL=mongodb://localhost:27017/
 DATABASE_NAME=payments_db
