@@ -20,4 +20,4 @@ MONGO_URL=mongodb://localhost:27017/
 DATABASE_NAME=payments_db
 ```
 
-Run [main.py](http://main.py) and check it
+Run main.py and check it
