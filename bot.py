@@ -1,7 +1,11 @@
 import os
 from aiogram import types, Bot, Dispatcher
-from aiogram.filters.command import CommandStart, Command
+from aiogram.filters.command import CommandStart
 import dotenv
+from db import get_response
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 dotenv.load_dotenv()
 BOT_TOKEN = os.getenv('BOT_TOKEN')
@@ -20,4 +24,7 @@ async def start(message: types.Message):
 
 @dp.message()
 async def on_message(message):
-    await message.answer(message.text)
+    request = eval(message.text)
+    response = get_response(request)
+    await message.answer(str(response)[:1000])
+
